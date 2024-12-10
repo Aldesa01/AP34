@@ -1,1 +1,2 @@
-grep -o 'Quijote' el_quijote.txt
+grep -o -i "quijote" el_quijote.txt | wc -l
+grep -v -i "quijote" el_quijote.txt | wc -l
